@@ -48,7 +48,7 @@ library(rnaturalearth)
 ```{r}
 #| eval: true
  
-gapminder_2007 <- gapminder |> 
+gapminder_2007 <- gapminder |> %>% 
   filter(year == 2007) 
 ```
 
